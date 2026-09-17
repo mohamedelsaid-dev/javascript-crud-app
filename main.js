@@ -50,13 +50,62 @@ function getTotal() {
 let datapro;
 
 if (localStorage.product != null) {
-
     datapro = JSON.parse(localStorage.product);
-
 } else {
+    datapro = [
+        {
+            title: 'iphone 17',
+            price: '70000',
+            taxes: '2400',
+            ads: '1000',
+            discount: '3000',
+            total: '70400',
+            count: '1',
+            category: 'phones'
+        },
+        {
+            title: 'iphone 16',
+            price: '50000',
+            taxes: '2400',
+            ads: '1000',
+            discount: '3000',
+            total: '50400',
+            count: '1',
+            category: 'phones'
+        },
+        {
+            title: 'toyota corolla',
+            price: '500000',
+            taxes: '5000',
+            ads: '2000',
+            discount: '4000',
+            total: '503000',
+            count: '1',
+            category: 'cars'
+        },
+        {
+            title: 'mercedes c200',
+            price: '1000000',
+            taxes: '10000',
+            ads: '1000',
+            discount: '4000',
+            total: '1007000',
+            count: '1',
+            category: 'cars'
+        },
+        {
+            title: 'macbook pro',
+            price: '120000',
+            taxes: '3000',
+            ads: '1500',
+            discount: '5000',
+            total: '119500',
+            count: '1',
+            category: 'laptops'
+        }
+    ];
 
-    datapro = [];
-
+    localStorage.setItem('product', JSON.stringify(datapro));
 }
 
 
