@@ -8,7 +8,7 @@ This project demonstrates the core CRUD operations used in modern web applicatio
 
 ## 🚀 Live Demo
 
-🔗 [View Live Demo](https://javascript-crud-app-six.vercel.app)
+🔗 [View Live Demo](https://javascript-crud-jkjc9r7by-mohamedelsaid.vercel.app/)
 
 ## 📸 Project Preview
 
